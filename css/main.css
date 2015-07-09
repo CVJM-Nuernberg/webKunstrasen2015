@@ -22,6 +22,8 @@ Pink
     * #CF0071 dark
     * #A00057 darkest
 * #52AD2E - 82, 173, 46 (grün Flyer + Plakat)
+    * #378F17 (dark)
+    * (#1F6D02 darkest)
 
 */
 
@@ -50,6 +52,9 @@ iframe {
 }
 
 a {
+    color: #52AD2E;
+    text-decoration: none;
+    outline: none;
     -webkit-transition: all 0.3s ease-out 0s;
        -moz-transition: all 0.3s ease-out 0s;
         -ms-transition: all 0.3s ease-out 0s;
@@ -57,9 +62,10 @@ a {
             transition: all 0.3s ease-out 0s;
 }
 
-a, a:hover, a:focus, .btn:focus {
+a:hover, a:focus, .btn:focus {
     text-decoration: none;
     outline: none;
+    color: #378F17;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -537,6 +543,10 @@ h1.navbar-brand {
     text-transform: uppercase;
 }
 
+#about h4 {
+    color: #fff;
+}
+
 #about .welcome-block h3 {
     margin: 0 0 65px;
 }
@@ -912,7 +922,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/slider/banner_kunstrasen_c_dark2.jpg);
     padding: 0;
 }
 
@@ -1288,6 +1298,10 @@ textarea.form-control {
     #about h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
+    }
+
+    .work-item h4 {
+         color:  #FFF !important;
     }
 
     #about .owl-buttons {

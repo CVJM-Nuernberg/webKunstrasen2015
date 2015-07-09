@@ -181,7 +181,7 @@ function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 
-	    var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
+	    var myLatLng = new google.maps.LatLng(49.459782, 11.046618);
 
 	    var mapOptions = {
 	        zoom: 15,
@@ -192,6 +192,7 @@ function init() {
 	        mapTypeControl: false,
 	        scaleControl: false,
 	        draggable: true,
+            //mapTypeId: "OSM",
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -253,11 +254,33 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(22.402789, 91.822156),
+        position: new google.maps.LatLng(49.459782, 11.046618),
         map: map,
 		icon: 'img/icons/map-marker.png',
     });
+
+    //Define OSM map type pointing at the OpenStreetMap tile server
+            map.mapTypes.set("OSM", new google.maps.ImageMapType({
+                getTileUrl: function(coord, zoom) {
+                    // "Wrap" x (logitude) at 180th meridian properly
+                    // NB: Don't touch coord.x because coord param is by reference, and changing its x property breakes something in Google's lib 
+                    var tilesPerGlobe = 1 << zoom;
+                    var x = coord.x % tilesPerGlobe;
+                    if (x < 0) {
+                        x = tilesPerGlobe+x;
+                    }
+                    // Wrap y (latitude) in a like manner if you want to enable vertical infinite scroll
+ 
+                    return "http://tile.openstreetmap.org/" + zoom + "/" + x + "/" + coord.y + ".png";
+                },
+                tileSize: new google.maps.Size(256, 256),
+                name: "OpenStreetMap",
+                maxZoom: 18
+            }));
 }
+
+
+
 
 // ========== END GOOGLE MAP ========== //
 
