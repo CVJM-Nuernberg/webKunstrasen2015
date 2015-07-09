@@ -15,6 +15,7 @@
         <meta name="keywords" content="Musik, Kunst, Kultur, Brücke, Pegnitz, Nürnberg">
         <meta name="author" content="Stefan Wagner">
         <link rel="alternate" type="application/rss+xml" title="Kunstrasenfestival News &raquo; Feed" href="http://blog.kunstrasenfestival.de/feed/" />
+        <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 		
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -193,25 +194,26 @@
 									<div class="work-item">
                                         
                                         <h4>festival // musik // theater // literatur //</h4>
-										<p><img src="img/PolaroidKind.jpg" class="img-responsive pull-left" style="width:  30%; margin-right: 3px" >Auf zwei Bühnen gibt es ein spannendes Programm verschiedenster Künstler. </p>
+										<p><img src="img/PolaroidKind.jpg" alt="Zuschauer" class="img-responsive pull-left" style="width:  30%; margin-right: 3px" >Auf zwei Bühnen gibt es ein spannendes Programm verschiedenster Künstler. </p>
                                         <a href="#programm" class="btn btn-border btn-effect pull-right">Zum Programm</a>
 									</div>
 									<div class="work-item">
                                         <h4>kunst // asylland-container //</h4>
-										<p>Wir wollen Künstlern und Flüchtlingen eine Plattform bieten, sich in bereitgestellten Containern mit ihrer Kunst zu präsentieren. Wir wollen damit Solidarität mit der Situation von Flüchtlingen zeigen, und eine Containerlandschaft rund um die Großbühne des Festivals aufstellen.</p>
-                                        <a href="http://blog.kunstrasenfestival.de/2014/11/asylland/" target="_blank" class="btn btn-border btn-effect pull-right">Zur Ankündigung</a>
+										<p><img src="img/PolaroidAsylland.jpg" alt="Zuschauer" class="img-responsive pull-left" style="width:  30%; margin-right: 3px" >Wir stellt in Containern Aus&shy;stellungs&shy;raum für ausgesuchte Künstler bereit. In der Container&shy;stadt wird in der Woche zuvor eine Kunst&shy;ausstellung vor&shy;bereitet. „Asyl“ ist nicht das vorgegebene Thema. In Asylland sind allerdings Menschen mit unterschiedlichen Biographien Nachbarn und können sich freiwillig begegnen. </p>
 									</div>
 									<!--<div class="work-item">
                                         <h4>sport // </h4>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-									</div>
-                                    <div class="work-item">
-                                        <h4>campen // </h4>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 									</div>-->
                                     <div class="work-item">
+                                        <h4>campen // </h4>
+										<p>Auf dem Kunstrasen werden Kulturbegeisterte aus der Metrolpolregion und andere Nationen gemeinsam Zelten, und sich gegenseitig künstlerisch inspirieren. Die Ergebnisse sind auf dem Festival zu sehen.   </p>
+									</div>
+                                    <div class="work-item">
                                         <h4>essen // trinken //</h4>
-										<p><img src="img/PolaroidWaffel.jpg" class="img-responsive pull-left" style="width:  30%; margin-right: 3px" >Wir versorgen dich. Vor Ort gibt es ein reichhaltiges Angebot an unseren Essensständen.</p>
+										<p><img src="img/PolaroidWaffel.jpg" alt="Waffeln" class="img-responsive pull-left" style="width:  30%; margin-right: 3px" >Statt Fressen und Gefressen zu werden bietet das Kunstrasenfestival eine Auswahl an Fingerfood: 
+Grillstation, Lütticher Waffeln und Crépes, Energieballs, und vieles mehr. 
+</p>
 									</div>
 								</div>
 							</div>
@@ -232,7 +234,7 @@
 						    </div>
 						</div>
                         <!-- Banner -->
-			            <img src="img/KunstrasenBanner.jpg" class="img-responsive center wow animated fadeInRight" style="padding-bottom: 0%; padding-top: 5%">
+			            <img src="img/KunstrasenBanner.jpg" alt="Flyer" class="img-responsive center wow animated fadeInRight" style="padding-bottom: 0%; padding-top: 5%">
 					</div>
 				</div>
 			</section>
@@ -264,6 +266,14 @@
                                     Brücke mit internationalen Gästen
                                     unter anderem aus China und Rumänien.
                                 </p>
+                                <ul>
+                                    <li>Mo, 13. Juli, abends: Jam Session I (Mutprobe)</li>
+                                    <li>Di, 14. Juli, abends: Jam Session II (Mutprobe für Jedermann)</li>
+                                    <li>Mi, 15. Juli: Fußball und mehr Sport<br />
+                                        abends: Grillen, Singen und Spielen</li>
+                                    <li>Do, 16. Juli, 19 Uhr: NZ-Kietzredaktion, <br />
+                                    20 Uhr: Chinese Night</li>
+                                </ul>
 							</div>
 						</div>
 					
@@ -280,7 +290,7 @@
 <ul>
 <li>KlangWelt(en) &#8211; Interkultureller Chor</li>
 <li>komm!unication &#8211; Theaterprojekt</li>
-<li>Bauchtanz von <a href="https://myspace.com/thedeserttribe" target="_blank">Desert Tribe</a></li>
+<li>Swing-Tanz (Lindy Hop & Charleston) mit Christoph Brückner & Olga Kruse</li>
 <li><a href="http://www.schleuseband.de" target="_blank">Schleuse</a></li>
 <li>Lesung mit <a href="https://wortwerkerlangen.wordpress.com/unsere-autoren/anja-zeltner/" target="_blank" title="Gewinnerin des Literaturpreises der Nürnberger Kulturläden 2010">Anja Zeltner</a></li>
 </ul>
