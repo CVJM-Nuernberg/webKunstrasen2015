@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -267,10 +267,10 @@ Grillstation, Lütticher Waffeln und Crépes, Energieballs, und vieles mehr.
                                     unter anderem aus China und Rumänien.
                                 </p>
                                 <ul>
-                                    <li>Mo, 13. Juli, abends: Jam Session I (Mutprobe)</li>
-                                    <li>Di, 14. Juli, abends: Jam Session II (Mutprobe für Jedermann)</li>
-                                    <li>Mi, 15. Juli: Fußball und mehr Sport<br />
-                                        abends: Grillen, Singen und Spielen</li>
+                                    <li>Mo, 13. Juli, 19:30 Uhr: Jam Session I (Mutprobe)</li>
+                                    <li>Di, 14. Juli, 19:30 Uhr: Jam Session II (Mutprobe für Jedermann)</li>
+                                    <li>Mi, 15. Juli, 8 bis 9:30 Uhr: Fußball zum Frühstück<br />
+                                        19:30 Uhr: Grillen, Singen und Spielen</li>
                                     <li>Do, 16. Juli, 19 Uhr: NZ-Kietzredaktion, <br />
                                     20 Uhr: Chinese Night</li>
                                 </ul>
@@ -335,7 +335,7 @@ Grillstation, Lütticher Waffeln und Crépes, Energieballs, und vieles mehr.
 							</div>
 						</div>
 					
-						<div class="col-md-3 col-sm-6 col-xs-12  wow animated zoomIn" data-wow-delay="0.9s">
+						<div   wow animated zoomIn" data-wow-delay="0.9s">
 							<div class="service-item">
 								<!--<div class="service-icon">
 									<i class="fa fa-heart fa-3x"></i>
@@ -363,9 +363,17 @@ beim Kunst-Gottesdienst.</p>
 						<div class="sec-title text-center wow animated fadeInDown">
 							<h2>Aktuelle Neuigkeiten</h2>
 							<p>In unserem <a href="http://blog.kunstrasenfestival.de">Blog</a> gibt es die neusten Neuigkeiten.</p>
-                            <p><a href="http://blog.kunstrasenfestival.de" class="btn btn-blue btn-effect" style="margin-top: 10px">Zum Blog</a></p>
+
+                            
 						</div>
-						
+
+						<div class="col-md-6 col-md-offset-3"><?php include('feedInclude.php')?>
+                        
+                            <p class="text-center"><a href="http://blog.kunstrasenfestival.de" class="btn btn-blue btn-effect" style="margin-top: 10px">Zum Blog</a></p>
+                        
+                        </div>
+
+                        
                         <!--
 						<ul class="project-wrapper wow animated fadeInUp">
 							<li class="portfolio-item">
